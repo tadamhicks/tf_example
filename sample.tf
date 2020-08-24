@@ -16,7 +16,7 @@ provider "aws" {
 
 resource "aws_instance" "superman" {
   ami           = "ami-0b91a410940e82c54"
-  instance_type = "t2.micro"
+  instance_type = "t2.nano"
 }
 
 resource "aws_instance" "batman" {
