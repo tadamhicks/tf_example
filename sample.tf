@@ -1,13 +1,14 @@
 #################################
-##			Variables		   ##
+##	Variables              ##
 #################################
 variable "access_key" {}
 variable "secret_key" {}
 
 
 #################################
-##			Provider		   ##
+## Providers                   ##
 #################################
+
 provider "aws" {
 	region = "us-west-1"
 	access_key = "${var.access_key}"
